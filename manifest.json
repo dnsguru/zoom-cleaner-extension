@@ -2,6 +2,7 @@
   "manifest_version": 3,
   "name": "Zoom Tab Cleaner",
   "version": "1.0",
+  "description": "This cleans up those leftover tabs that Zoom leaves behind after launching.",
   "permissions": [
     "tabs"
   ],
