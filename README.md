@@ -13,6 +13,10 @@ As a busy professional, during a zoom meeting I'll hop around in tabs to track d
 
 So after enough iterations of finding and closing zoom.us meeting launcher tabs, I hit the flustration wall and wrote this super basic extension to deal with the process. 
 
+## Downloading
+
+Click that green code button just above this text to the right, and 'download zip'.  Unzip it into the folder of your choice on your computer.
+
 ## Installing
 
 1  Open up Manage Extensions
