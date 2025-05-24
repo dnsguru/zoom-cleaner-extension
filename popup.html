@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Zoom Tab Debris Cleaner</title>
+  <style>
+    body {
+      font-family: 'Almaden Sans',Helvetica,'Noto Sans JP','Noto Sans KR','Noto Sans SC','Noto Sans TC','Noto Sans',Arial,sans-serif;
+      background-color: #ffffff;
+      letter-spacing: 0.03em;
+      padding: 20px;
+      margin: 0;
+      width: 300px;
+    }
+
+    h3 {
+      margin-top: 0;
+      color: #2c3e50;
+      font-size: 20px;
+      text-align: center;
+    }
+
+    button {
+      background-color: #0b5cff;
+      color: white;
+      border: 1px #0b5cff;
+      padding: 10px 15px;
+      margin: 5px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 14px;
+      transition: background-color 0.3s ease;
+      width: 100%;
+    }
+
+    button:hover {
+      background-color: #357ab7;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin-top: 15px;
+      background-color: #ffffff;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      max-height: 200px;
+      overflow-y: auto;
+    }
+
+    li {
+      font-size: 11px;
+      padding: 6px 10px;
+      border-bottom: 1px solid #f0f0f0;
+      word-break: break-word;
+    }
+
+    li:last-child {
+      border-bottom: none;
+    }
+  </style>
+</head>
+<body>
+  <h3>Zoom Tab Cleaner</h3>
+  <button id="scanBtn">Scan</button>
+  <button id="cleanBtn">Bulk Close</button>
+  <ul id="tabList"></ul>
+  <div>Simple Zoom debris cleanup tool<br/>
+  1. Click Scan.  2. Click Bulk Close.</div>
+  <script src="popup.js"></script>
+</body>
+</html>
