@@ -1,2 +1,7 @@
+# Ignore dotfiles
+.*
+!.gitignore    # except this one
+
+# Ignore custom files
 .DS_Store
 .gitsttributes
